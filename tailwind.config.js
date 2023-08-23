@@ -16,7 +16,8 @@ export default {
     },
     fontFamily: {
       sans: ['Raleway', 'sans-serif'],
-      opensans: ['Open Sans', 'sans-serif']
+      opensans: ['Open Sans', 'sans-serif'],
+      dm_sans: ['DM Sans', 'monospace'],
     },
     backgroundImage: () => ({
       'logo-dark-mode': "url('./static/images/logo-dark-mode.svg')",
