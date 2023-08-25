@@ -109,4 +109,88 @@
   </div>
 </section>
 
+<!-- Testimonials Section -->
+<section id="testimonials" class="bg-gray-50 dark:bg-darkBlue">
 
+  <!-- Testimonials Container -->
+  <div class="container mx-auto px-6 pt-12 pb-80 md:pb-96">
+
+    <!-- Boxes Container -->
+    <div class="relative flex flex-col w-full space-y-6 md:flex-row md:space-y-0 md:space-x-12">
+
+      <!-- Quotes image -->
+      <img src="/images/bg-quotes.png" alt="" class="absolute left-1 -top-2 w-10 md:-top-16 md:w-20">
+
+      <!-- First Box -->
+      <div class="flex flex-col p-10 space-y-6 rounded-lg bg-gray-100 dark:bg-darkBlue3">
+        <p class="text-sm leading-5 md:text-lg">
+          Datawell has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
+        </p>
+       
+        <!-- Customer Info -->
+        <div class="flex space-x-4">
+          <img src="/images/profile-1.jpg" alt="" class="w-10 h-10 rounded-full">
+          <div>
+            <h5 class="text-sm font-semibold">Edward Shepherd</h5>
+            <p class="text-xs font-extralight">Founder & CEO. Cloudking</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Box -->
+      <div class="flex flex-col p-10 space-y-6 rounded-lg bg-gray-100 dark:bg-darkBlue3">
+        <p class="text-sm leading-5 md:text-lg">
+          Ratione, enim autem animi omnis itaque quidem dolorem? Facere voluptatum quaerat cumque harum aut nostrum impedit incidunt tenetur nobis neque mollitia omnis quae expedita sed voluptas, recusandae ullam voluptate officiis consequuntur nemo natus.
+        </p>
+       
+        <!-- Customer Info -->
+        <div class="flex space-x-4">
+          <img src="/images/profile-2.jpg" alt="" class="w-10 h-10 rounded-full">
+          <div>
+            <h5 class="text-sm font-semibold">Marcus Stanley</h5>
+            <p class="text-xs font-extralight">CTO. Primehive</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Third Box -->
+      <div class="flex flex-col p-10 space-y-6 rounded-lg bg-gray-100 dark:bg-darkBlue3">
+        <p class="text-sm leading-5 md:text-lg">
+          Cum commodi ducimus voluptas voluptatibus molestiae iure nulla maxime. Asperiores architecto perspiciatis dolore fuga harum consequatur ducimus porro maiores.
+        </p>
+       
+        <!-- Customer Info -->
+        <div class="flex space-x-4">
+          <img src="/images/profile-3.jpg" alt="" class="w-10 h-10 rounded-full">
+          <div>
+            <h5 class="text-sm font-semibold">Emma Francis</h5>
+            <p class="text-xs font-extralight">CFO. Drifttechs</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<!-- Early access -->
+<section id="early-access" class="relative px-6 dark:bg-darkBlue2 md:px-0">
+  <div class="relative -top-40 max-w-4xl mx-auto p-10 px-6 space-y-6 text-center rounded-lg bg-gray-200 dark:bg-darkBlue1 md:px-16">
+    <h5 class="text-2xl font-bold">
+      Get early access today
+    </h5>
+    <p class="text-sm">
+      It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questinos, our support team would be happy to help you.
+    </p>
+
+    <!-- Input & Button Container -->
+    <div class="flex flex-col items-start space-y-6 md:flex-row md:space-y-0 md:space-x-6">
+      <div class="w-full md:flex-1">
+        <input type="text" class="w-full px-10 py-3 rounded-full focus:outline-none" placeholder="email@example.com">
+      </div>
+
+      <button class="w-full p-3 px-6 rounded-full bg-accentCyan md:w-56 hover:scale-95">Get Started For Free</button>
+    </div>
+  </div>
+</section>
